@@ -12,4 +12,8 @@ span {
   font-weight: 600;
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
-
+.Logo{
+  img {
+    transform: scaleY(-1);
+}
+}
