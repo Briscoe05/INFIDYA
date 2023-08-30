@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFIDYA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--top of the page-->
+
+    <div class="fitlogo">
+        <img src="/INFIDYA/images/infiniagoldtra.png" alt="logo" height="500px" width="500px"> 
+    </div>
+
+    <h2 class="inf">INFIDYA</h2>
+    <br>
+    <br>
+
+    <!--contact us-->
+    <div></div>
+<section>
+    <h2>Contact us</h2>
+    <p>To contact us about anything, please email us: placeholdertext</p>
+    <p>To sponsor us, please call us: placeholdertext </p>
+</section>
+
+
+<!--Middle of the page-->
+<br>
+<br>
+<br>
+
+<!--counter-->
+
+<section>
+    <div>
+        <div>
+            <div id="style" class="counter" data-target="500">0</div>
+        </div>
+
+<h3>Monthy subscribers</h3>
+
+<br>
+<p class="sizee">We have insider memes!</p>
+<a href="/INFIDYA/Fourthsub.html"><button class="button">Subscribe to us!</button></a>
+
+
+    <!--eww  java, this is for the counter to work this was a pain to try to do btw dont even TRY to do this because this was so annoying to even consider trying to do just because I wanna do something funny and all that, you know how it is. LMFAO btw this is a long comment just because I feel like typing it to tell you how I feel about typing up java lollllll-->
+
+<script>
+    const counters = document.querySelectorAll('.counter');
+    const speed = 100;
+
+    counters.forEach(counter => {
+	    const updateCount = () => {
+		    const target = +counter.getAttribute('data-target');
+		    const count = +counter.innerText;
+
+		    const inc = target / speed;
+
+		    if (count < target) {
+		    	counter.innerText = count + inc;
+		    	setTimeout(updateCount,30);
+	    	} else {
+		    	counter.innerText = target;
+		}
+	};
+
+	updateCount();
+});
+</script>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section>
+    <h2>About us!</h2>
+    <h3>Brandon</h3>
+    <p>Brandon did</p>
+    <ul>
+        <li>Sales</li>
+        <li>Special Deals</li>
+        <li>PC's</li>
+        <li>interaction</li>
+        <li>Popular sellers</li>
+    </ul>
+
+
+    <br>
+    
+
+    <h3>Matt</h3>
+    <p>Matt did</p>
+    <ul>
+        <li>Main content</li>
+    </ul>
+    <p>Information descriptions for</p>
+        <ol>
+            <li>PC's</li>
+            <li>Gaming consoles</li>
+            <li>Graphics cards</li>
+            <li>current gen</li>
+        </ol>
+
+    <br>
+   
+
+    <h3>Jonny</h3>
+    <p>Jonny did</p>
+    <ul>
+        <li>Retro page</li>
+        <li>Classic games</li>
+        <li>Gameboy</li>
+        <ul>
+            <li>Like steam but better</li>
+        </ul>
+    </ul>
+
+    <br>
+
+
+    <h3>Shane</h3>
+    <p>Shane did</p>
+    <ul>
+        <li>Monthy subscriptions</li>
+        <li>Contact us</li>
+        <li>GIF dice</li>
+        <li>About us</li>
+    </ul>
+</section>
+</body>
+</html>
