@@ -6,6 +6,7 @@ h1 {
   color: white;
   background-color:rgb(23, 230, 133);
   
+  
 }
 span {
   font-style: italic;
@@ -19,7 +20,7 @@ span {
   top: 0;
   left: 0;
   width: 100px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255, 0);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   z-index: 1000;
 }
@@ -27,18 +28,35 @@ span {
 .logoscaling {
   width: 100%; 
 }
-.floatingLogo {
-  position: fixed;
-  height: 200px;
-  width: 200px;
-  top: 0;
-  left: 0;
-  width: 100px;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-  z-index: 1000;
+.one{
+  text-align: center;
 }
-.logoscaling {
-  width: 100%; 
-}
+.mic{
+    display:grid;
+    background-color:rgb(23, 230, 133)
+    padding:10px;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 100px 500px;
+    grid-gap:40px;
 
+
+}
+.two{
+    background-color:rgb(21, 175, 175);
+    border:1px solid black;
+    padding:20px;
+    font-size:25px;
+    text-align:center;
+}
+p{
+  color: aquamarine;
+  font-size: 26px;
+  font-family: 'Racing Sans One', cursive;
+  text-decoration: underline;
+}
+.pages a {
+    color: rgb(12, 212, 146);
+    float: left;
+    padding: 10px 10px;
+    text-decoration: none;
+}
