@@ -1,3 +1,4 @@
+/* Hey guys, use the code contained within this comment and the one below for the floating icon.*/
 .floatingLogo {
   position: fixed;
   height: 200px;
@@ -13,3 +14,4 @@
 .logoscaling {
   width: 100%; 
 }
+/* There's probably a better way to treat the logo scaling, but this worked from the internet. The z-index above is just making sure the information pops out at you.*/
