@@ -19,7 +19,7 @@ span {
   top: 0;
   left: 0;
   width: 100px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   z-index: 1000;
 }
@@ -27,18 +27,107 @@ span {
 .logoscaling {
   width: 100%; 
 }
-.floatingLogo {
-  position: fixed;
-  height: 200px;
-  width: 200px;
-  top: 0;
-  left: 0;
-  width: 100px;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-  z-index: 1000;
-}
-.logoscaling {
-  width: 100%; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS for 4th page*/
+
+.sizee {
+  font-size: 20px;
+  color: white;
 }
 
+.button {
+  background-color: blue;
+  color: white;
+}
+
+#style {
+  font-size: 30px;
+  color: white;
+
+}
+
+.inf {
+  font-size: 45;
+  text-align: center;
+
+}
+
+.white {
+  color: white;
+
+}
+
+.about {
+  font-size: 20;
+  color: white;
+
+}
