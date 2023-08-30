@@ -6,6 +6,7 @@ h1 {
   color: white;
   background-color:rgb(23, 230, 133);
   
+  
 }
 span {
   font-style: italic;
@@ -25,4 +26,9 @@ span {
 
 .logoscaling {
   width: 100%; 
+}
+.one{
+  text-align: center;
+  background: none;
+  z-index: 1000;
 }
