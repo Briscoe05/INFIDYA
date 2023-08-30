@@ -12,8 +12,19 @@ span {
   font-weight: 600;
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
-.Logo{
-  img {
-    transform: scaleY(-1);
+
+.floatingLogo {
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  top: 0;
+  left: 0;
+  width: 100px;
+  background:none;
+  z-index: 1000;
 }
+
+.logoscaling {
+  width: 100%;
 }
+  
