@@ -12,16 +12,29 @@ p{
   text-decoration: underline;
 }
 .pages a {
-    color: rgb(12, 212, 146);
+    color: rgb(243, 255, 251);
     float: left;
     padding: 10px 10px;
     text-decoration: none;
 }
 .mic{
     display:grid;
-    background-color:rgb(23, 230, 133)
+    background-color:rgb(3, 55, 77);
     padding:10px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: auto auto auto auto auto;
     grid-template-rows: 100px 500px;
     grid-gap:40px;
+}
+.three{
+    color:red;
+    text-decoration:underline;
+    font-size:20px;
+    font-family: 'Kablammo', cursive;
+} 
+.four{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
