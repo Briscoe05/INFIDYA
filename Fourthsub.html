@@ -10,5 +10,98 @@
     <h2 class="sub">THANKS FOR SUBSCRIBING!</h2>
 
 
+    <h2 style="color:rgb(255, 255, 255)"> Meme Generator </h2>  
+    <h4> Press the button to see a goofy meme </h4>  
+    <button onclick="displayRandomImages();"> Generate Meme </button>  
+<br>
+
+
+   <script>
+function displayRandomImages()   
+{  
+   
+   var imageArray = [  
+   {   
+     
+     src: "https://cdn.discordapp.com/attachments/1135707431599603856/1146595687983743066/273223.jpg",  
+      
+     width: "280",  
+     height: "200"  
+   },   
+
+   {   
+     
+     src: "https://cdn.discordapp.com/attachments/1135707431599603856/1146595688243802193/273361.jpg",  
+      
+     width: "280",  
+     height: "200"  
+   },   
+
+   {   
+     
+     src: "https://cdn.discordapp.com/attachments/1135707431599603856/1146595688566751262/274056.jpg",  
+      
+     width: "280",  
+     height: "200"  
+   },   
+
+   {   
+     
+     src: "https://cdn.discordapp.com/attachments/1135707431599603856/1146596014271234118/img_2_1693316280842.jpg",  
+      
+     width: "280",  
+     height: "200"  
+   },     
+
+   {   
+     
+     src: "https://cdn.discordapp.com/attachments/1135707431599603856/1146596533769343028/img_1_1677604773140.jpg",  
+      
+     width: "280",  
+     height: "200"  
+   },    
+
+   {   
+     
+     src: "https://cdn.discordapp.com/attachments/1135707431599603856/1146596843531284551/img_1_1674410274762.jpg",  
+      
+     width: "280",  
+     height: "200"  
+   }, ];  
+      
+    
+    var arrayLength = imageArray.length;  
+    var newArray = [];  
+    for (var i = 0; i < arrayLength; i++) {  
+        newArray[i] = new Image();  
+        newArray[i].src = imageArray[i].src;  
+        newArray[i].width = imageArray[i].width;  
+        newArray[i].height = imageArray[i].height;  
+    }  
+     
+  
+  function getRandomNum(min, max)   
+  {  
+     
+      imgNo = Math.floor(Math.random() * (max - min + 1)) + min;  
+      return newArray[imgNo];  
+  }    
+  
+  
+  var newImage = getRandomNum(0, newArray.length - 1);  
+   
+   
+  var images = document.getElementsByTagName('img');  
+  var l = images.length;  
+  for (var p = 0; p < l; p++) {  
+     images[0].parentNode.removeChild(images[0]);  
+  }  
+  
+  document.body.appendChild(newImage);  
+}  
+
+   </script>
+
+
 </body>
 </html>
