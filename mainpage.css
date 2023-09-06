@@ -12,7 +12,7 @@ p{
   text-decoration: underline;
 }
 .pages a {
-    color: rgb(243, 255, 251);
+    color: rgb(234, 243, 240);
     float: left;
     padding: 10px 10px;
     text-decoration: none;
@@ -37,4 +37,25 @@ p{
     justify-content: center;
     flex-wrap: wrap;
     
+}
+.mic2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mic2 img{
+width: 250px;
+height:250px;
+border:solid white ;
+padding: 15px;
+margin: auto;
+
+}
+.class1{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding-top:10px;
+
 }
