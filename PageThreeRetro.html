@@ -5,26 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infidya Retro</title>
     <link rel="stylesheet" href="PageThreeRetro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <!-- This is where the floating logo should go inline your HTML pages -->
 <div class="floatingLogo">
-    <img src="images\InfidyaLogo.png" alt="Infidya Logo" class="logoscaling">
-</div>
+    <a href="/INFIDYA/MainPage.html"><img src="/images/InfidyaLogo.png" alt="Infidya Logo" class="logoscaling" class="logoscaling"></a>
+    </div>
 <!-- Try not to copy paste past this point -->
+<header>
+    <nav>
+        <div class="navbar">
+            <a href="/FourthPage.html" id="about-us-link">Contact us</a>
+            <a href="/PageThreeRetro.html" id="retro-link">Retro</a>
+            <a href="/index.html" id="current-gen-link">Current Gen</a>
+            <a href="/MainPage.html" id="home-link">Home</a>
+        </div>                  
+    </nav>
+</header>
 
 <body>
-    <header>
-        <h1>Infidya Retro Gaming</h1>
-        <nav>
-            <ul>
-                <li><a href="#MainPage">Homepage</a></li>
-                <li><a href="#index">Current Gen Gaming</a></li>
-                <li><a href="#PageThreeRetro">Retro Gaming</a></li>
-                <li><a href="#FourthPage">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    
     
     <section id="home">
         <div class="hero">
@@ -36,20 +42,19 @@
     <section id="products">
         <h2>Retro Remedies</h2>
         <div class="product">
-            <img src="" alt="">
-            <h3>Retro Console 1</h3>
-            <p>Relive the classics with our first-gen retro console.</p>
+            <img class="hidden roundededges" src="/images/SegaGenesisAbstractArt.png" alt="Sega Genesis">
+            <h3>Sega Genesis</h3>
+            <p>Relive the classics with our first-gen Genesis consoles.</p>
             <span class="price">$199.99</span>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="" alt="">
-            <h3>Retro Console 2</h3>
-            <p>Experience the nostalgia with our second-gen retro console.</p>
+            <img class="hidden roundededges" src="/images/SuperNintendoAbstractArt.png" alt="SuperNintendoAbstractArt">
+            <h3>Super Nintendo</h3>
+            <p>Experience the nostalgia with our rare SNES models.</p>
             <span class="price">$249.99</span>
             <button>Add to Cart</button>
         </div>
-        <!-- Add more products -->
     </section>
     
 <!-- 
