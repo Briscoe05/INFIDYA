@@ -35,3 +35,27 @@
     font-size: 30px;
   
   }
+
+  .aboutus {
+    display: flex;
+
+  }
+
+  .navbar {
+  background-color: rgb(23, 230, 133);
+  overflow: hidden;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}

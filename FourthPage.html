@@ -7,10 +7,31 @@
     <link rel="stylesheet" href="Fourth.css">
 </head>
 <body>
-    <!--top of the page-->
 
+    <!--navbar-->
+    <div class="navbar">
+        <a href="/INFIDYA/FourthPage.html" id="about-us-link">Contact us</a>
+        <a href="/INFIDYA/PageThreeRetro.html" id="retro-link">Retro</a>
+        <a href="/INFIDYA/index.html" id="current-gen-link">Current Gen</a>
+        <a href="/INFIDYA/MainPage.html" id="home-link">Home</a>
+    </div>                                      
+
+    
+    <div id="home-page" style="display: none;">
+    </div>
+
+    <div id="retro-page" style="display: none;">
+    </div>
+
+    <div id="current-gen-page" style="display: none;">
+    </div>
+
+    <div id="about-us-page" style="display: none;">
+    </div>
+
+    <!--Logo that follows you-->
     <div class="floatingLogo">
-        <img src="/INFIDYA/images/InfidyaLogo.png" alt="Infidya Logo" class="logoscaling" class="logoscaling">
+    <a href="/INFIDYA/MainPage.html"><img src="/INFIDYA/images/InfidyaLogo.png" alt="Infidya Logo" class="logoscaling" class="logoscaling"></a>
     </div>
 
     <h2 class="inf">INFIDYA</h2>
@@ -20,23 +41,12 @@
     <!--contact us-->
 <section id="big" class="white">
     <h2>Contact us</h2>
-    <p>To contact us about anything, please email us: infidya@gmail.com</p>
+    <p>To contact us about anything, please email us: Support@INFIDYA.co</p>
     <p>To sponsor us, please call us: 1-800-GIT-GOOD </p>
 </section>
 
 
-<!--Middle of the page-->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<!--space for monthy subscribers-->
 <br>
 <br>
 <br>
@@ -61,17 +71,43 @@
         <div>
             <div id="style" class="counter" data-target="500">0</div>
         </div>
+</section>
 
 <h3 class="white">Monthy subscribers</h3>
 
-<br>
 <p class="sizee">We have insider memes!</p>
 <a href="/INFIDYA/Fourthsub.html"><button class="button">Subscribe to us!</button></a>
 
+</section>
 
-    <!--eww  java, this is for the counter to work this was a pain to try to do btw dont even TRY to do this because this was so annoying to even consider trying to do just because I wanna do something funny and all that, you know how it is. LMFAO btw this is a long comment just because I feel like typing it to tell you how I feel about typing up java lollllll-->
+    <!--eww  java for the counter and nav bar-->
 
 <script>
+
+  //navbar
+        function showPage(pageId) {
+            const pages = ["home-page", "retro-page", "current-gen-page", "about-us-page"];
+            for (const page of pages) {
+                const element = document.getElementById(page);
+                if (page === pageId) {
+                    element.style.display = "block";
+                } else {
+                    element.style.display = "none";
+                }
+            }
+        }
+
+        
+        document.getElementById("home-link").addEventListener("click", () => showPage("home-page"));
+        document.getElementById("retro-link").addEventListener("click", () => showPage("retro-page"));
+        document.getElementById("current-gen-link").addEventListener("click", () => showPage("current-gen-page"));
+        document.getElementById("about-us-link").addEventListener("click", () => showPage("about-us-page"));
+
+
+
+
+
+  //counter
     const counters = document.querySelectorAll('.counter');
     const speed = 100;
 
@@ -102,9 +138,11 @@
 <br>
 <br>
 <br>
+<div class="aboutus">
 <section class="about">
     <h2>About us!</h2>
     <h3>Brandon</h3>
+    <p>Brandon: The WoW guy</p>
     <p>Brandon did</p>
     <ul>
         <li>Sales</li>
@@ -119,6 +157,7 @@
     
 
     <h3>Matt</h3>
+    <p>Matt got sick at an anime con and thats his whole personality now</p>
     <p>Matt did</p>
     <ul>
         <li>Main content</li>
@@ -135,13 +174,14 @@
    
 
     <h3>Jonny</h3>
+    <p>Jonny was a teacher so him and lee go toe to toe on who's better</p>
     <p>Jonny did</p>
     <ul>
         <li>Retro page</li>
         <li>Classic games</li>
         <li>Gameboy</li>
         <ul>
-            <li>Like steam but better</li>
+            <li>It's like steam but better</li>
         </ul>
     </ul>
 
@@ -149,6 +189,7 @@
 
 
     <h3>Shane</h3>
+    <p>Shane is a gaming nerd lol</p>
     <p>Shane did</p>
     <ul>
         <li>Monthy subscriptions</li>
@@ -157,5 +198,7 @@
         <li>About us</li>
     </ul>
 </section>
+</div>
+
 </body>
 </html>
