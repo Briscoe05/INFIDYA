@@ -35,13 +35,14 @@
     font-size: 30px;
   
   }
+  
 
   .aboutus {
     display: flex;
 
   }
 
-  .navbar {
+.navbar {
   background-color: rgb(23, 230, 133);
   overflow: hidden;
 }
